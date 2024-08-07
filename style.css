@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: darkgrey;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 200px;
+
+}
+
+.section {
+    background-color: #ffff;
+    border-radius: 7px;
+    display: flex;
+    padding: 50px;
+    margin-bottom: 1px;
+}
+
+.subsection {
+    width: 50%;
+}
+
+.perfil {
+    max-width: 60%;
+    max-height: 100 px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.circle {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(204, 255, 115);
+    border-radius: 30px;
+}
+
+.status {
+    display: flex;
+    border: 1px solid grey;
+    padding: 8px;
+    border-radius: 20px;
+    margin-right: 40px;
+}
+
+.p-status {
+    margin: 0 10px;
+}
+
+.present {
+    font-size: x-large;
+    border-bottom: 1px solid rgb(158, 157, 157);
+    padding-bottom: 40px;
+}
+
+.btn-black {
+    background-color: black;
+    color: #ffff;
+    padding: 25px;
+    border-radius: 30px;
+    font-size: larger;
+}
+
+.btn-black:hover {
+    background-color: #ffff;
+    color: black;
+    cursor: pointer;
+}
+
+.btn-lined {
+    padding: 25px;
+    background-color: #ffff;
+    border-radius: 30px;
+    text-decoration: underline;
+}
+
+.btn-lined:hover {
+    background-color: black;
+    color: #ffff;
+    cursor: pointer;
+}
+
+.iconos {
+    margin: 20px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    border-radius: 80px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* aqui van los estilos de email.js */
+.field {
+    margin-bottom: 10px;
+}
+
+.field label {
+    display: block;
+    font-size: 12px;
+    color: #777;
+}
+
+.field input {
+    display: block;
+    min-width: 250px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    display: block;
+    padding: 6px 30px;
+    font-size: 14px;
+    background-color: #4460AA;
+    color: #fff;
+    border: none
+}

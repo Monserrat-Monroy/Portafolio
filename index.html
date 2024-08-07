@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="section">
+            <div class="subsection">
+                <!-- esta es la seccionde la derecha -->
+                <h1>Monse Monroy</h1>
+                <p>Web Developer</p>
+                <div class="status">
+                    <p class="p-status">Avaliable for work</p>
+                    <div class="circle"></div>
+                </div>
+                <img class="perfil" src="./imagen/monse.jpg" alt="Mon Dev">
+            </div>
+
+            <!-- esta es la seccionde la izquierda -->
+            <div class="subsection">
+                <p class="present">¡Hola! Soy Monse , una especialista en diseño web que da vida a las ideas con
+                    innovación, creatividad y precisión.</p>
+                <div class="ctrl-buttons">
+                    <button class="btn-black">WORK</button>
+                    <button class="btn-lined">CV DOWNLOAD</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- aqui va la segunda seccion -->
+        <div class="section">
+            <img class="iconos" src="./imagen/html.jpg" alt="icono">
+            <img class="iconos" src="./imagen/css.jpg" alt="icono">
+            <img class="iconos" src="./imagen/js.jpg" alt="icono">
+            <img class="iconos" src="./imagen/git.jpg" alt="icono">
+            <img class="iconos" src="./imagen/github.jpg" alt="icono">
+        </div>
+
+        <!-- aqui va la seccion de contacto -->
+        <div class="section">
+            <form id="form">
+                <div class="field">
+                    <label for="from_name">Nombre</label>
+                    <input type="text" name="from_name" id="from_name">
+                </div>
+                <div class="field">
+                    <label for="to_name">Correo</label>
+                    <input type="text" name="to_name" id="to_name">
+                </div>
+                <div class="field">
+                    <label for="email_id">Mensaje</label>
+                    <input type="text" name="email_id" id="email_id">
+                </div>
+                <div class="field">
+                    <label for="message">message</label>
+                    <input type="text" name="message" id="message">
+                </div>
+
+                <input type="submit" id="button" value="Send Email">
+            </form>
+        </div>
+
+        <div class="contenedor">
+            <div class="section">
+                <div class="educacion">
+                    <h1>Educacion</h1>
+                    <p> Licencitura en pedagogia</p>
+                    <p class="escuela">Universital Tecnologica Latinoamericana</p>
+                    <p class="fecha">2021-2024</p>
+                </div>
+                <div class="educacion">
+                    <h1>Experiencia</h1>
+                    <p> Licencitura en pedagogia</p>
+                    <p class="escuela">Universital Tecnologica Latinoamericana</p>
+                    <p class="fecha">2021-2024</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- aqui va el codigo de emailjs -->
+    <script src="./emailjs.js"></script>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script type="text/javascript">
+    emailjs.init('9OpbFF7jnk8cmXBUh')
+</script>
+
+
+
+</body>
+
+</html>
